@@ -115,8 +115,8 @@ export default function LandingPage() {
   <div id="features" data-section="features">
       <FeatureCardTwentyOne
       useInvertedBackground={true}
-      title="The MPY Transformation Process"
-      description="We meticulously transform your vision into reality, combining artistic flair with technical expertise for a finish that truly stands out."
+      title="The MPY Craft Process"
+      description="We turn your vision into a precision-crafted finish where artistry and technical mastery meet."
       accordionItems={[
         {
           id: "process-1",          title: "1. Vision & Consultation",          content: "Share your ideas, inspirations, and desired aesthetics. We'll explore design concepts, color palettes, and material finishes to fully capture your vision."},
