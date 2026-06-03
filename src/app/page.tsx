@@ -216,7 +216,7 @@ export default function LandingPage() {
       description="Follow us on our social media platforms to see our latest custom paint projects, behind-the-scenes glimpses, and connect with our community of riders and enthusiasts."
       tag="Stay Connected"
       names={[
-        "Facebook",        "Instagram",        "YouTube",        ""Twitter (X)"
+        "Facebook",        "Instagram",        "YouTube",        "Twitter (X)"
       ]}
       buttons={[
         {
