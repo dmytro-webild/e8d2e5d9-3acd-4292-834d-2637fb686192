@@ -8,11 +8,10 @@ import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
 import HeroSplit from '@/components/sections/hero/HeroSplit';
 import MetricCardThree from '@/components/sections/metrics/MetricCardThree';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
-import PricingCardEight from '@/components/sections/pricing/PricingCardEight';
-import ProductCardFour from '@/components/sections/product/ProductCardFour';
 import TestimonialCardTwelve from '@/components/sections/testimonial/TestimonialCardTwelve';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
-import { Activity, Award, Feather, Heart, Paintbrush, ShieldCheck, Sparkles, Wrench, Quote } from "lucide-react";
+import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
+import { Activity, Award, Feather, Heart, ShieldCheck, Sparkles, Quote } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -40,6 +39,8 @@ export default function LandingPage() {
           name: "Portfolio",          id: "#products"},
         {
           name: "Testimonials",          id: "#testimonials"},
+        {
+          name: "Socials",          id: "#social-media"},
         {
           name: "Quote",          id: "#contact"},
       ]}
@@ -208,42 +209,29 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="pricing" data-section="pricing">
-      <PricingCardEight
+  <div id="social-media" data-section="social-media">
+      <SocialProofOne
       animationType="slide-up"
-      textboxLayout="default"
       useInvertedBackground={true}
-      plans={[
-        {
-          id: "plan-1",          badge: "Essential Re-finish",          badgeIcon: Paintbrush,
-          price: "Starting at $400",          subtitle: "Revitalize your frame with a fresh, clean look.",          buttons: [
-            {
-              text: "Get a Quote",              href: "#contact"},
-          ],
-          features: [
-            "Single-stage color application",            "Minor surface prep & repair",            "Durable gloss/matte finish",            "Professional component masking"],
-        },
-        {
-          id: "plan-2",          badge: "Signature Masterpiece",          badgeIcon: Sparkles,
-          price: "Starting at $800",          subtitle: "Collaborate with artists for a unique, personalized design.",          buttons: [
-            {
-              text: "Design Consultation",              href: "#contact"},
-          ],
-          features: [
-            "Multi-tone & graphic options",            "Intricate detail & airbrushing",            "Advanced protective clear coats",            "Dedicated design consultation"],
-        },
-        {
-          id: "plan-3",          badge: "Heritage Revival",          badgeIcon: Wrench,
-          price: "Starting at $1200",          subtitle: "Bring cherished classics back to their original glory.",          buttons: [
-            {
-              text: "Restore My Bike",              href: "#contact"},
-          ],
-          features: [
-            "Complete frame assessment & repair",            "Historical color & decal replication",            "Corrosion treatment & prevention",            "Ceramic top coat for ultimate protection"],
-        },
+      title="Connect with MPY Paint Jobs"
+      description="Follow us on our social media platforms to see our latest custom paint projects, behind-the-scenes glimpses, and connect with our community of riders and enthusiasts."
+      tag="Stay Connected"
+      names={[
+        "Facebook",        "Instagram",        "YouTube",        "Twitter (X)"
       ]}
-      title="Unleash Your Bike's Potential: Tailored Artistry Services"
-      description="Discover the perfect service tier to transform your bicycle. From meticulous restoration to bespoke artistic designs, we offer unparalleled craftsmanship tailored to your desires and budget."
+      buttons={[
+        {
+          text: "Facebook",          href: "https://www.facebook.com/MPYPaintJobs"},
+        {
+          text: "Instagram",          href: "https://www.instagram.com/MPYPaintJobs"},
+        {
+          text: "YouTube",          href: "https://www.youtube.com/MPYPaintJobs"},
+        {
+          text: "Twitter (X)",          href: "https://twitter.com/MPYPaintJobs"}
+      ]}
+      speed={40}
+      showCard={true}
+      ariaLabel="Social Media Section"
     />
   </div>
 
@@ -292,8 +280,6 @@ export default function LandingPage() {
               label: "Refinishing",              href: "#features"},
             {
               label: "Restoration",              href: "#features"},
-            {
-              label: "Bulk Orders",              href: "#pricing"},
           ],
         },
         {
@@ -304,6 +290,8 @@ export default function LandingPage() {
               label: "Our Process",              href: "#features"},
             {
               label: "Testimonials",              href: "#testimonials"},
+            {
+              label: "Socials",              href: "#social-media"},
             {
               label: "Contact",              href: "#contact"},
           ],
