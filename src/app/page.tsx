@@ -198,7 +198,7 @@ export default function LandingPage() {
         {
           id: "t3",          name: "Mike C.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780481163326-q46znam2.jpg",          imageAlt: "Mike C. showing off his restoration"},
         {
-          id: "t4",          name: "Emily R.",          imageSrc: "http://img.b2bpic.net/free-photo/interested-african-male-model-red-pants-smiling-portrait-inspired-black-guy-standing-near-green-bicycle_197531-20222.jpg",          imageAlt: "Emily R. excited about her new paint job"},
+          id: "t4",          name: "Emily R.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780481238971-wn0n8f2k.jpg",          imageAlt: "Emily R. excited about her new paint job"},
         {
           id: "t5",          name: "David K.",          imageSrc: "http://img.b2bpic.net/free-photo/man-racing-dirt-bike_23-2151493384.jpg",          imageAlt: "David K. admiring his custom frame"},
       ]}
