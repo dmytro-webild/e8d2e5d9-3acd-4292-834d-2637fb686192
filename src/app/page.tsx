@@ -317,7 +317,7 @@ export default function LandingPage() {
           ],
         },
       ]}
-      copyrightText="© 2024 MPY Paint Jobs. All rights reserved."
+      copyrightText="© 2021 MPY Paint Jobs. All rights reserved."
       logoImageClassName="bg-transparent"
     />
   </div>
