@@ -223,7 +223,7 @@ export default function LandingPage() {
         {
           text: "Facebook",          href: "https://www.facebook.com/mpycustompaintjobs"},
         {
-          text: "Instagram",          href: "https://www.instagram.com/mpypaintjobs_/"},
+          text: "Instagram",          href: "https://www.instagram.com/mpypaintjobs_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="},
         {
           text: "YouTube",          href: "https://www.youtube.com/MPYPaintJobs"},
         {
