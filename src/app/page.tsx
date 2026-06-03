@@ -217,13 +217,13 @@ export default function LandingPage() {
       description="Follow us on our social media platforms to see our latest custom paint projects, behind-the-scenes glimpses, and connect with our community of riders and enthusiasts."
       tag="Stay Connected"
       names={[
-        "Facebook",        "Instagram",        "YouTube",        "Twitter (X)"
+        "Facebook: mpycustompaintjobs",        "Instagram: mpypaintjobs_",        "YouTube",        "Twitter (X)"
       ]}
       buttons={[
         {
-          text: "Facebook",          href: "https://www.facebook.com/mpycustompaintjobs"},
+          text: "Facebook: mpycustompaintjobs"},
         {
-          text: "Instagram",          href: "https://www.instagram.com/mpypaintjobs_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="},
+          text: "Instagram: mpypaintjobs_"},
         {
           text: "YouTube",          href: "https://www.youtube.com/MPYPaintJobs"},
         {
