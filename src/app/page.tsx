@@ -48,6 +48,7 @@ export default function LandingPage() {
       logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780476716313-05mwh7j7.png"
       logoAlt="MPY Paint Jobs Logo"
       brandName="MPY Paint Jobs"
+      logoImageClassName="bg-transparent"
     />
   </div>
 
@@ -316,6 +317,7 @@ export default function LandingPage() {
         },
       ]}
       copyrightText="© 2024 MPY Paint Jobs. All rights reserved."
+      logoImageClassName="bg-transparent"
     />
   </div>
       </ReactLenis>
