@@ -142,6 +142,7 @@ export default function LandingPage() {
       gridVariant="bento-grid"
       useInvertedBackground={false}
       carouselMode="buttons"
+      animationType="slide-up"
       products={[
         {
           id: "product-1",          name: "Elves Bikes Frame",          price: "Repaint Project",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780467729397-lqxx901e.jpg",          imageAlt: "Custom painted racing bike frame with geometric patterns",          variant: "Road Bike"
@@ -231,6 +232,7 @@ export default function LandingPage() {
       speed={40}
       showCard={true}
       ariaLabel="Social Media Section"
+      textboxLayout="default"
     />
   </div>
 
