@@ -102,11 +102,11 @@ export default function LandingPage() {
       <TestimonialAboutCard
       useInvertedBackground={false}
       tag="Our Promise"
-      title="Crafted with Precision. Driven by Passion."
+      title="Your Vision, Our Canvas."
       description="At MPY Paint Jobs, we believe every bike tells a story. Hear from our satisfied customers who have experienced the MPY difference and ride with unparalleled style."
       subdescription="Their custom bikes are now personalized masterpieces, reflecting their unique vision and our dedication to excellence."
       icon={Quote}
-      imageSrc="http://img.b2bpic.net/free-photo/cheerful-cyclist-catching-his-breath_329181-8667.jpg?_wi=1"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780477477656-h7tjjciu.jpg"
       imageAlt="Happy cyclist with a custom painted bike"
       mediaAnimation="blur-reveal"
     />
