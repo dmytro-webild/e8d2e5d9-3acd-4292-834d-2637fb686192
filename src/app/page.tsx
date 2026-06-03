@@ -174,7 +174,7 @@ export default function LandingPage() {
       metrics={[
         {
           id: "m1",          icon: Award,
-          title: "Years of Craft",          value: "15+"},
+          title: "Crafting Since",          value: "2021"},
         {
           id: "m2",          icon: Sparkles,
           title: "Custom Designs",          value: "Limitless"},
@@ -183,7 +183,7 @@ export default function LandingPage() {
           title: "Client Satisfaction",          value: "99%"},
       ]}
       title="The Art of Numbers: Our Commitment to Excellence"
-      description="Our studio thrives on delivering not just paint, but perfection. These numbers reflect our dedication to quality, customer satisfaction, and unique artistry."
+      description="Our studio is built on more than paint—it’s built on precision, craftsmanship, and detail. These numbers reflect our commitment to quality, client trust, and one-of-one artistry."
     />
   </div>
 
