@@ -229,7 +229,7 @@ export default function LandingPage() {
           id: "faq-2",          title: "How much is the paint job service?",          content: "Prices vary depending on the frame material whether aluminum, steel, or carbon and the color or design you choose. Our custom paint jobs usually start at ₱7,500."
         },
         {
-          id: "faq-3",          title: "Can I provide my own design?",          content: "Absolutely! We encourage clients to share their vision. We'll work closely with you to bring your custom design to life."
+          id: "faq-3",          title: "What kind of paint do you use?",          content: "Absolutely! We encourage clients to share their vision. We'll work closely with you to bring your custom design to life."
         },
         {
           id: "faq-4",          title: "Do you offer restoration services?",          content: "Yes, we offer full restoration services, including paint stripping, dent repair, and meticulous preparation to bring old frames back to life."
