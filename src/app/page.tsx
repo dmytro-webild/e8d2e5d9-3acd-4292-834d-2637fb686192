@@ -106,7 +106,7 @@ export default function LandingPage() {
       description="At MPY Paint Jobs, we believe every bike tells a story. Hear from our satisfied customers who have experienced the MPY difference and ride with unparalleled style."
       subdescription="Their custom bikes are now personalized masterpieces, reflecting their unique vision and our dedication to excellence."
       icon={Quote}
-      imageSrc="http://img.b2bpic.net/free-photo/cheerful-cyclist-catching-his-breath_329181-8667.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/cheerful-cyclist-catching-his-breath_329181-8667.jpg?_wi=1"
       imageAlt="Happy cyclist with a custom painted bike"
       mediaAnimation="blur-reveal"
     />
@@ -186,7 +186,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "t1",          name: "Alex P.",          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-cyclist-catching-his-breath_329181-8667.jpg",          imageAlt: "Alex P. with custom bike"},
+          id: "t1",          name: "Alex P.",          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-cyclist-catching-his-breath_329181-8667.jpg?_wi=2",          imageAlt: "Alex P. with custom bike"},
         {
           id: "t2",          name: "Sarah J.",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-mechanic_1170-2354.jpg",          imageAlt: "Sarah J. with her custom bike"},
         {
