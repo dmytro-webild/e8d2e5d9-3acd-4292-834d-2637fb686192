@@ -9,7 +9,7 @@ import HeroSplit from '@/components/sections/hero/HeroSplit';
 import MetricCardThree from '@/components/sections/metrics/MetricCardThree';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import PricingCardEight from '@/components/sections/pricing/PricingCardEight';
-import ProductCardOne from '@/components/sections/product/ProductCardOne';
+import ProductCardFour from '@/components/sections/product/ProductCardFour';
 import TestimonialCardTwelve from '@/components/sections/testimonial/TestimonialCardTwelve';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
 import { Activity, Award, Feather, Heart, Paintbrush, ShieldCheck, Sparkles, Wrench, Quote } from "lucide-react";
@@ -135,7 +135,7 @@ export default function LandingPage() {
   </div>
 
   <div id="products" data-section="products">
-      <ProductCardOne
+      <ProductCardFour
       animationType="slide-up"
       textboxLayout="default"
       gridVariant="bento-grid"
@@ -143,17 +143,23 @@ export default function LandingPage() {
       carouselMode="buttons"
       products={[
         {
-          id: "product-1",          name: "Aero Racer Custom",          price: "Custom Project",          imageSrc: "http://img.b2bpic.net/free-photo/action-transport-transportation-bicycles-detail_1203-5120.jpg",          imageAlt: "Custom painted racing bike frame with geometric patterns"},
+          id: "product-1",          name: "Aero Racer Custom",          price: "Custom Project",          imageSrc: "http://img.b2bpic.net/free-photo/action-transport-transportation-bicycles-detail_1203-5120.jpg",          imageAlt: "Custom painted racing bike frame with geometric patterns",          variant: "Road Bike"
+        },
         {
-          id: "product-2",          name: "Vintage Revival",          price: "Restoration Project",          imageSrc: "http://img.b2bpic.net/free-photo/futuristic-time-machines-design_23-2151599325.jpg",          imageAlt: "Restored vintage bicycle frame with new paint"},
+          id: "product-2",          name: "Vintage Revival",          price: "Restoration Project",          imageSrc: "http://img.b2bpic.net/free-photo/futuristic-time-machines-design_23-2151599325.jpg",          imageAlt: "Restored vintage bicycle frame with new paint",          variant: "Classic"
+        },
         {
-          id: "product-3",          name: "Trailblazer Art",          price: "Custom Project",          imageSrc: "http://img.b2bpic.net/free-photo/rusty-granite-seamless-texture_23-2148327835.jpg",          imageAlt: "Custom painted mountain bike frame with artistic design"},
+          id: "product-3",          name: "Trailblazer Art",          price: "Custom Project",          imageSrc: "http://img.b2bpic.net/free-photo/rusty-granite-seamless-texture_23-2148327835.jpg",          imageAlt: "Custom painted mountain bike frame with artistic design",          variant: "MTB"
+        },
         {
-          id: "product-4",          name: "Urban Explorer",          price: "Custom Project",          imageSrc: "http://img.b2bpic.net/free-photo/happy-monday-with-bicycle-outdoors_23-2149814556.jpg",          imageAlt: "Custom painted electric bike frame for urban commuting"},
+          id: "product-4",          name: "Urban Explorer",          price: "Custom Project",          imageSrc: "http://img.b2bpic.net/free-photo/happy-monday-with-bicycle-outdoors_23-2149814556.jpg",          imageAlt: "Custom painted electric bike frame for urban commuting",          variant: "City Bike"
+        },
         {
-          id: "product-5",          name: "Velodrome Speed",          price: "Custom Project",          imageSrc: "http://img.b2bpic.net/free-photo/bmx-rider-is-performing-tricks_654080-1410.jpg",          imageAlt: "Custom painted track bike frame with bold graphics"},
+          id: "product-5",          name: "Velodrome Speed",          price: "Custom Project",          imageSrc: "http://img.b2bpic.net/free-photo/bmx-rider-is-performing-tricks_654080-1410.jpg",          imageAlt: "Custom painted track bike frame with bold graphics",          variant: "Track Bike"
+        },
         {
-          id: "product-6",          name: "Graffiti Beast",          price: "Custom Project",          imageSrc: "http://img.b2bpic.net/free-photo/old-vintage-bicycle_74190-3457.jpg",          imageAlt: "Bicycle frame with vibrant graffiti-style custom paint"},
+          id: "product-6",          name: "Graffiti Beast",          price: "Custom Project",          imageSrc: "http://img.b2bpic.net/free-photo/old-vintage-bicycle_74190-3457.jpg",          imageAlt: "Bicycle frame with vibrant graffiti-style custom paint",          variant: "BMX"
+        },
       ]}
       title="Our Masterpieces: A Gallery of Custom Frames"
       description="Explore a selection of our finest custom painted bicycle frames, showcasing unique designs, vibrant colors, and unparalleled attention to detail."
