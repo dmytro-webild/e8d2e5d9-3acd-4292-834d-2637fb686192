@@ -63,7 +63,7 @@ export default function LandingPage() {
         {
           text: "Book Now",          href: "#contact"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/strong-shirtless-man-makes-acrobatic-figure-with-bmx-studio-isolated-dark-background_613910-9816.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780468256156-hkaddfls.jpg"
       imageAlt="Custom painted bicycle frame in a studio"
       mediaAnimation="blur-reveal"
       fixedMediaHeight={true}
