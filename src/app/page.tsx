@@ -127,7 +127,7 @@ export default function LandingPage() {
         {
           id: "process-4",          title: "4. Durable Finish & Delivery",          content: "A multi-layer clear coat is applied for maximum durability and a deep, lasting shine. Your masterpiece is then carefully inspected and prepared for its journey back to you."},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/crop-man-bicycle-bridge_23-2147764158.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780469364696-hiwp5qar.jpg"
       imageAlt="Bicycle frame being prepped for painting"
       mediaAnimation="blur-reveal"
       mediaPosition="right"
