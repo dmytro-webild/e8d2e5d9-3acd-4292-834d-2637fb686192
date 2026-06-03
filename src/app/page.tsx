@@ -2,7 +2,6 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import AboutMetric from '@/components/sections/about/AboutMetric';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FeatureCardTwentyOne from '@/components/sections/feature/FeatureCardTwentyOne';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
@@ -12,7 +11,8 @@ import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarS
 import PricingCardEight from '@/components/sections/pricing/PricingCardEight';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import TestimonialCardTwelve from '@/components/sections/testimonial/TestimonialCardTwelve';
-import { Activity, Award, Feather, Heart, Paintbrush, ShieldCheck, Sparkles, Wrench } from "lucide-react";
+import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
+import { Activity, Award, Feather, Heart, Paintbrush, ShieldCheck, Sparkles, Wrench, Quote } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -99,21 +99,16 @@ export default function LandingPage() {
   </div>
 
   <div id="about" data-section="about">
-      <AboutMetric
+      <TestimonialAboutCard
       useInvertedBackground={false}
+      tag="Our Promise"
       title="Crafted with Precision. Driven by Passion."
-      metrics={[
-        {
-          icon: Paintbrush,
-          label: "Custom Creations",          value: "1000+"},
-        {
-          icon: Sparkles,
-          label: "Unique Designs",          value: "100%"},
-        {
-          icon: Activity,
-          label: "Happy Riders",          value: "500+"},
-      ]}
-      metricsAnimation="slide-up"
+      description="At MPY Paint Jobs, we believe every bike tells a story. Hear from our satisfied customers who have experienced the MPY difference and ride with unparalleled style."
+      subdescription="Their custom bikes are now personalized masterpieces, reflecting their unique vision and our dedication to excellence."
+      icon={Quote}
+      imageSrc="http://img.b2bpic.net/free-photo/cheerful-cyclist-catching-his-breath_329181-8667.jpg"
+      imageAlt="Happy cyclist with a custom painted bike"
+      mediaAnimation="blur-reveal"
     />
   </div>
 
