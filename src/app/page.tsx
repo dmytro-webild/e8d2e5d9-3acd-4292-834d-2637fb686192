@@ -143,10 +143,10 @@ export default function LandingPage() {
       carouselMode="buttons"
       products={[
         {
-          id: "product-1",          name: "Aero Racer Custom",          price: "Custom Project",          imageSrc: "http://img.b2bpic.net/free-photo/action-transport-transportation-bicycles-detail_1203-5120.jpg",          imageAlt: "Custom painted racing bike frame with geometric patterns",          variant: "Road Bike"
+          id: "product-1",          name: "Elves Bikes Custom",          price: "Custom Project",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780467729397-lqxx901e.jpg",          imageAlt: "Custom painted racing bike frame with geometric patterns",          variant: "Road Bike"
         },
         {
-          id: "product-2",          name: "Vintage Revival",          price: "Restoration Project",          imageSrc: "http://img.b2bpic.net/free-photo/futuristic-time-machines-design_23-2151599325.jpg",          imageAlt: "Restored vintage bicycle frame with new paint",          variant: "Classic"
+          id: "product-2",          name: "Ave Maldea Custom Frame",          price: "Restoration Project",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780467713489-t0pr11a2.jpg",          imageAlt: "Restored vintage bicycle frame with new paint",          variant: "Fixed gear"
         },
         {
           id: "product-3",          name: "Trailblazer Art",          price: "Custom Project",          imageSrc: "http://img.b2bpic.net/free-photo/rusty-granite-seamless-texture_23-2148327835.jpg",          imageAlt: "Custom painted mountain bike frame with artistic design",          variant: "MTB"
