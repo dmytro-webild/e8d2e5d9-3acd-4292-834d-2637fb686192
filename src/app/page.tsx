@@ -194,9 +194,9 @@ export default function LandingPage() {
         {
           id: "t1",          name: "Alex P.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780481087551-8p9bipxt.jpg",          imageAlt: "Alex P. with custom bike"},
         {
-          id: "t2",          name: "Sarah J.",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-mechanic_1170-2354.jpg",          imageAlt: "Sarah J. with her custom bike"},
+          id: "t2",          name: "Sarah J.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780481159781-397bl9jm.jpg",          imageAlt: "Sarah J. with her custom bike"},
         {
-          id: "t3",          name: "Mike C.",          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-blurry-woman-workshop_23-2149103832.jpg",          imageAlt: "Mike C. showing off his restoration"},
+          id: "t3",          name: "Mike C.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780481163326-q46znam2.jpg",          imageAlt: "Mike C. showing off his restoration"},
         {
           id: "t4",          name: "Emily R.",          imageSrc: "http://img.b2bpic.net/free-photo/interested-african-male-model-red-pants-smiling-portrait-inspired-black-guy-standing-near-green-bicycle_197531-20222.jpg",          imageAlt: "Emily R. excited about her new paint job"},
         {
