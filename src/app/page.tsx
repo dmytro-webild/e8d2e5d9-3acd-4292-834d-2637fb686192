@@ -268,7 +268,7 @@ export default function LandingPage() {
         name: "projectDetails",        placeholder: "Tell us about your project vision (e.g., bike type, style, colors, desired date)",        rows: 5,
         required: true,
       }}
-      imageSrc="http://img.b2bpic.net/free-photo/medium-shot-man-repairing-bike_23-2148932598.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780476585715-xxiwthkq.jpg"
       imageAlt="Close up of bicycle frame in a workshop"
       mediaAnimation="blur-reveal"
       mediaPosition="right"
