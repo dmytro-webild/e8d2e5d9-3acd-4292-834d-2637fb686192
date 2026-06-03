@@ -238,7 +238,8 @@ export default function LandingPage() {
           id: "faq-5",          title: "How long does it take?",          content: "A custom paint job usually takes 2-4 weeks. It depends on the frame's condition, weather, and any unexpected delays. We always make sure to give each frame the time and detail it deserves."
         },
         {
-          id: "faq-6",          title: "Can we ship our frames if we're far from the shop?  ",          content: "You can request a quote by filling out the contact form on our website, detailing your project vision. We'll respond within 24 hours."
+          id: "faq-6",          title: "Can we ship our frames if we're far from the shop?  ",          content: "Yes, you can! you can send your frames through couriers like Lalamove, J&T or any shipping company you trust. We accept shipped frames from anywhere, Worldwide.
+"
         }
       ]}
     />
