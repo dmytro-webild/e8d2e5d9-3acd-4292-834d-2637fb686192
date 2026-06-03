@@ -192,7 +192,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "t1",          name: "Alex P.",          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-cyclist-catching-his-breath_329181-8667.jpg?_wi=2",          imageAlt: "Alex P. with custom bike"},
+          id: "t1",          name: "Alex P.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780481087551-8p9bipxt.jpg",          imageAlt: "Alex P. with custom bike"},
         {
           id: "t2",          name: "Sarah J.",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-mechanic_1170-2354.jpg",          imageAlt: "Sarah J. with her custom bike"},
         {
