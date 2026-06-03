@@ -37,7 +37,7 @@ export default function LandingPage() {
         {
           name: "Services",          id: "#features"},
         {
-          name: "Portfolio",          id: "#products"},
+        name: "Portfolio",          id: "#products"},
         {
           name: "Testimonials",          id: "#testimonials"},
         {
@@ -221,9 +221,9 @@ export default function LandingPage() {
       ]}
       buttons={[
         {
-          text: "Facebook",          href: "https://www.facebook.com/MPYPaintJobs"},
+          text: "Facebook",          href: "https://www.facebook.com/mpycustompaintjobs"},
         {
-          text: "Instagram",          href: "https://www.instagram.com/MPYPaintJobs"},
+          text: "Instagram",          href: "https://www.instagram.com/mpypaintjobs_/"},
         {
           text: "YouTube",          href: "https://www.youtube.com/MPYPaintJobs"},
         {
