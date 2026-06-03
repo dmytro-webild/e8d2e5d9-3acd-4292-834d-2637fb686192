@@ -61,7 +61,7 @@ export default function LandingPage() {
       description="MPY transforms bicycle frames into personalized masterpieces through premium handpainted designs, expert restorations, and one-of-a-kind finishes. From road to street, every bike tells your story."
       buttons={[
         {
-          text: "Request Your Custom Quote",          href: "#contact"},
+          text: "Book Now",          href: "#contact"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/strong-shirtless-man-makes-acrobatic-figure-with-bmx-studio-isolated-dark-background_613910-9816.jpg"
       imageAlt="Custom painted bicycle frame in a studio"
