@@ -223,7 +223,7 @@ export default function LandingPage() {
       textboxLayout="default"
       faqs={[
         {
-          id: "faq-1",          title: "What types of bikes do you paint?",          content: "We paint all types of bicycle frames, including road, mountain, fixed gear, gravel, and electric bikes."
+          id: "faq-1",          title: "Where are you located?",          content: "We paint all types of bicycle frames, including road, mountain, fixed gear, gravel, and electric bikes."
         },
         {
           id: "faq-2",          title: "How long does a custom paint job take?",          content: "The timeline varies based on complexity, but typically ranges from 2-4 weeks after we receive your frame."
