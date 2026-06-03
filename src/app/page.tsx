@@ -45,7 +45,7 @@ export default function LandingPage() {
       ]}
       button={{
         text: "Request a Quote",        href: "#contact"}}
-      logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780476716313-05mwh7j7.png"
+      logoSrc="http://img.b2bpic.net/free-photo/electric-bicycle-shop-with-bike-repair_171189-299.jpg"
       logoAlt="MPY Paint Jobs Logo"
       brandName="MPY Paint Jobs"
       logoImageClassName="bg-transparent"
@@ -280,7 +280,7 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterBaseCard
-      logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780476716313-05mwh7j7.png"
+      logoSrc="http://img.b2bpic.net/free-photo/electric-bicycle-shop-with-bike-repair_171189-299.jpg"
       logoAlt="MPY Paint Jobs Logo"
       logoText="MPY Paint Jobs"
       columns={[
