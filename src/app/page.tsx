@@ -215,35 +215,35 @@ export default function LandingPage() {
       useInvertedBackground={true}
       plans={[
         {
-          id: "plan-1",          badge: "Standard Refinish",          badgeIcon: Paintbrush,
-          price: "Starting at $400",          subtitle: "Fresh start for your frame",          buttons: [
+          id: "plan-1",          badge: "Essential Re-finish",          badgeIcon: Paintbrush,
+          price: "Starting at $400",          subtitle: "Revitalize your frame with a fresh, clean look.",          buttons: [
             {
               text: "Get a Quote",              href: "#contact"},
           ],
           features: [
-            "Single color repaint",            "Minor scratch repair",            "Standard clear coat",            "Full disassembly & reassembly"],
+            "Single-stage color application",            "Minor surface prep & repair",            "Durable gloss/matte finish",            "Professional component masking"],
         },
         {
-          id: "plan-2",          badge: "Custom Design",          badgeIcon: Sparkles,
-          price: "Starting at $800",          subtitle: "Your vision, our artistry",          buttons: [
+          id: "plan-2",          badge: "Signature Masterpiece",          badgeIcon: Sparkles,
+          price: "Starting at $800",          subtitle: "Collaborate with artists for a unique, personalized design.",          buttons: [
             {
               text: "Design Consultation",              href: "#contact"},
           ],
           features: [
-            "Multi-color schemes & graphics",            "Advanced artistic details",            "Premium clear coat options",            "Digital mock-ups & revisions"],
+            "Multi-tone & graphic options",            "Intricate detail & airbrushing",            "Advanced protective clear coats",            "Dedicated design consultation"],
         },
         {
-          id: "plan-3",          badge: "Full Restoration",          badgeIcon: Wrench,
-          price: "Starting at $1200",          subtitle: "Bringing classics back to life",          buttons: [
+          id: "plan-3",          badge: "Heritage Revival",          badgeIcon: Wrench,
+          price: "Starting at $1200",          subtitle: "Bring cherished classics back to their original glory.",          buttons: [
             {
               text: "Restore My Bike",              href: "#contact"},
           ],
           features: [
-            "Historical accuracy matching",            "Deep rust & dent removal",            "Original decal recreation",            "Protective ceramic coating"],
+            "Complete frame assessment & repair",            "Historical color & decal replication",            "Corrosion treatment & prevention",            "Ceramic top coat for ultimate protection"],
         },
       ]}
-      title="Tailored Artistry: Request Your Custom Quote"
-      description="Every frame is a unique canvas. Our pricing reflects the intricate detail, custom design, and expert craftsmanship involved. Contact us for a personalized consultation."
+      title="Unleash Your Bike's Potential: Tailored Artistry Services"
+      description="Discover the perfect service tier to transform your bicycle. From meticulous restoration to bespoke artistic designs, we offer unparalleled craftsmanship tailored to your desires and budget."
     />
   </div>
 
