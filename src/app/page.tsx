@@ -22,7 +22,7 @@ export default function LandingPage() {
         borderRadius="pill"
         contentWidth="mediumSmall"
         sizing="medium"
-        background="blurBottom"
+        background="fluid"
         cardStyle="solid"
         primaryButtonStyle="primary-glow"
         secondaryButtonStyle="solid"
