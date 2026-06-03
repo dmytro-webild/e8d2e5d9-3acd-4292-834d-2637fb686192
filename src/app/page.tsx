@@ -143,22 +143,22 @@ export default function LandingPage() {
       carouselMode="buttons"
       products={[
         {
-          id: "product-1",          name: "Elves Bikes Custom",          price: "Custom Project",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780467729397-lqxx901e.jpg",          imageAlt: "Custom painted racing bike frame with geometric patterns",          variant: "Road Bike"
+          id: "product-1",          name: "Elves Bikes Frame",          price: "Repaint Project",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780467729397-lqxx901e.jpg",          imageAlt: "Custom painted racing bike frame with geometric patterns",          variant: "Road Bike"
         },
         {
-          id: "product-2",          name: "Ave Maldea Custom Frame",          price: "Restoration Project",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780467713489-t0pr11a2.jpg",          imageAlt: "Restored vintage bicycle frame with new paint",          variant: "Fixed gear"
+          id: "product-2",          name: "Ave Maldea Custom Frame",          price: "Restoration Project",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780467713489-t0pr11a2.jpg",          imageAlt: "Restored vintage bicycle frame with new paint",          variant: "Fixed Gear"
         },
         {
-          id: "product-3",          name: "Trailblazer Art",          price: "Custom Project",          imageSrc: "http://img.b2bpic.net/free-photo/rusty-granite-seamless-texture_23-2148327835.jpg",          imageAlt: "Custom painted mountain bike frame with artistic design",          variant: "MTB"
+          id: "product-3",          name: "Specialized Works Frame",          price: "Repaint Project",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780466560858-i0e9zcla.jpg",          imageAlt: "Custom painted mountain bike frame with artistic design",          variant: "Road Bike"
         },
         {
-          id: "product-4",          name: "Urban Explorer",          price: "Custom Project",          imageSrc: "http://img.b2bpic.net/free-photo/happy-monday-with-bicycle-outdoors_23-2149814556.jpg",          imageAlt: "Custom painted electric bike frame for urban commuting",          variant: "City Bike"
+          id: "product-4",          name: "Giant Frame",          price: "Repaint Project",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780478634392-fiau9xji.jpg",          imageAlt: "Custom painted electric bike frame for urban commuting",          variant: "Road Bike"
         },
         {
-          id: "product-5",          name: "Velodrome Speed",          price: "Custom Project",          imageSrc: "http://img.b2bpic.net/free-photo/bmx-rider-is-performing-tricks_654080-1410.jpg",          imageAlt: "Custom painted track bike frame with bold graphics",          variant: "Track Bike"
+          id: "product-5",          name: "Cinelli Mash Frame",          price: "Repaint Project",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780479213950-wm0qmy6y.jpg",          imageAlt: "Custom painted track bike frame with bold graphics",          variant: "Fixed Gear"
         },
         {
-          id: "product-6",          name: "Graffiti Beast",          price: "Custom Project",          imageSrc: "http://img.b2bpic.net/free-photo/old-vintage-bicycle_74190-3457.jpg",          imageAlt: "Bicycle frame with vibrant graffiti-style custom paint",          variant: "BMX"
+          id: "product-6",          name: "Specialized Frame",          price: "Repaint Project",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780466560858-i0e9zcla.jpg",          imageAlt: "Bicycle frame with vibrant graffiti-style custom paint",          variant: "Road Bike"
         },
       ]}
       title="Our Masterpieces: A Gallery of Custom Frames"
