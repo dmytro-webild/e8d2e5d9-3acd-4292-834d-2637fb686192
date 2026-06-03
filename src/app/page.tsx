@@ -12,6 +12,7 @@ import ProductCardFour from '@/components/sections/product/ProductCardFour';
 import TestimonialCardTwelve from '@/components/sections/testimonial/TestimonialCardTwelve';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
+import FaqDouble from '@/components/sections/faq/FaqDouble';
 import { Activity, Award, Feather, Heart, ShieldCheck, Sparkles, Quote } from "lucide-react";
 
 export default function LandingPage() {
@@ -40,6 +41,8 @@ export default function LandingPage() {
         name: "Portfolio",          id: "#products"},
         {
           name: "Testimonials",          id: "#testimonials"},
+        {
+          name: "FAQs",          id: "#faq"},
         {
           name: "Socials",          id: "#social-media"},
         {
@@ -210,6 +213,37 @@ export default function LandingPage() {
     />
   </div>
 
+  <div id="faq" data-section="faq">
+      <FaqDouble
+      useInvertedBackground={true}
+      title="Frequently Asked Questions"
+      description="Find quick answers to common questions about our custom bicycle frame painting, refinishing, and restoration services."
+      tag="FAQs"
+      faqsAnimation="slide-up"
+      textboxLayout="default"
+      faqs={[
+        {
+          id: "faq-1",          title: "What types of bikes do you paint?",          content: "We paint all types of bicycle frames, including road, mountain, fixed gear, gravel, and electric bikes."
+        },
+        {
+          id: "faq-2",          title: "How long does a custom paint job take?",          content: "The timeline varies based on complexity, but typically ranges from 2-4 weeks after we receive your frame."
+        },
+        {
+          id: "faq-3",          title: "Can I provide my own design?",          content: "Absolutely! We encourage clients to share their vision. We'll work closely with you to bring your custom design to life."
+        },
+        {
+          id: "faq-4",          title: "Do you offer restoration services?",          content: "Yes, we offer full restoration services, including paint stripping, dent repair, and meticulous preparation to bring old frames back to life."
+        },
+        {
+          id: "faq-5",          title: "What kind of paint do you use?",          content: "We use high-quality, durable automotive-grade paints and clear coats designed for longevity and a brilliant finish."
+        },
+        {
+          id: "faq-6",          title: "How do I get a quote?",          content: "You can request a quote by filling out the contact form on our website, detailing your project vision. We'll respond within 24 hours."
+        }
+      ]}
+    />
+  </div>
+
   <div id="social-media" data-section="social-media">
       <SocialProofOne
       useInvertedBackground={true}
@@ -291,6 +325,8 @@ export default function LandingPage() {
               label: "Our Process",              href: "#features"},
             {
               label: "Testimonials",              href: "#testimonials"},
+            {
+              label: "FAQs",              href: "#faq"},
             {
               label: "Socials",              href: "#social-media"},
             {
