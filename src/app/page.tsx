@@ -226,7 +226,7 @@ export default function LandingPage() {
           id: "faq-1",          title: "Where are you located?",          content: "Our shop is located in Salitran 1, Dasmariñas City, Cavite. You can pin your map at Total (Salitran), and our shop is directly in front of it—just look for the sliding door beside the helmet vending machine."
         },
         {
-          id: "faq-2",          title: "How long does a custom paint job take?",          content: "The timeline varies based on complexity, but typically ranges from 2-4 weeks after we receive your frame."
+          id: "faq-2",          title: "How much is the paint job service?",          content: "The timeline varies based on complexity, but typically ranges from 2-4 weeks after we receive your frame."
         },
         {
           id: "faq-3",          title: "Can I provide my own design?",          content: "Absolutely! We encourage clients to share their vision. We'll work closely with you to bring your custom design to life."
