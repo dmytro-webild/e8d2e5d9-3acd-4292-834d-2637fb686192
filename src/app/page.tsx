@@ -149,7 +149,7 @@ export default function LandingPage() {
           id: "product-2",          name: "Ave Maldea Custom Frame",          price: "Restoration Project",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780467713489-t0pr11a2.jpg",          imageAlt: "Restored vintage bicycle frame with new paint",          variant: "Fixed Gear"
         },
         {
-          id: "product-3",          name: "Specialized Works Frame",          price: "Repaint Project",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780466560858-i0e9zcla.jpg",          imageAlt: "Custom painted mountain bike frame with artistic design",          variant: "Road Bike"
+          id: "product-3",          name: "Specialized Works Frame",          price: "Repaint Project",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780466560858-i0e9zcla.jpg?_wi=1",          imageAlt: "Custom painted mountain bike frame with artistic design",          variant: "Road Bike"
         },
         {
           id: "product-4",          name: "Giant Frame",          price: "Repaint Project",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780478634392-fiau9xji.jpg",          imageAlt: "Custom painted electric bike frame for urban commuting",          variant: "Road Bike"
@@ -158,7 +158,7 @@ export default function LandingPage() {
           id: "product-5",          name: "Cinelli Mash Frame",          price: "Repaint Project",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780479213950-wm0qmy6y.jpg",          imageAlt: "Custom painted track bike frame with bold graphics",          variant: "Fixed Gear"
         },
         {
-          id: "product-6",          name: "Specialized Frame",          price: "Repaint Project",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780466560858-i0e9zcla.jpg",          imageAlt: "Bicycle frame with vibrant graffiti-style custom paint",          variant: "Road Bike"
+          id: "product-6",          name: "Specialized Frame",          price: "Repaint Project",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780466560858-i0e9zcla.jpg?_wi=2",          imageAlt: "Bicycle frame with vibrant graffiti-style custom paint",          variant: "Road Bike"
         },
       ]}
       title="Our Masterpieces: A Gallery of Custom Frames"
