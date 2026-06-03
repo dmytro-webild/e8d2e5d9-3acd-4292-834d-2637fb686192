@@ -8,6 +8,7 @@ import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
 import HeroSplit from '@/components/sections/hero/HeroSplit';
 import MetricCardThree from '@/components/sections/metrics/MetricCardThree';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
+import ProductCardFour from '@/components/sections/product/ProductCardFour';
 import TestimonialCardTwelve from '@/components/sections/testimonial/TestimonialCardTwelve';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
@@ -137,7 +138,6 @@ export default function LandingPage() {
 
   <div id="products" data-section="products">
       <ProductCardFour
-      animationType="slide-up"
       textboxLayout="default"
       gridVariant="bento-grid"
       useInvertedBackground={false}
@@ -211,13 +211,12 @@ export default function LandingPage() {
 
   <div id="social-media" data-section="social-media">
       <SocialProofOne
-      animationType="slide-up"
       useInvertedBackground={true}
       title="Connect with MPY Paint Jobs"
       description="Follow us on our social media platforms to see our latest custom paint projects, behind-the-scenes glimpses, and connect with our community of riders and enthusiasts."
       tag="Stay Connected"
       names={[
-        "Facebook",        "Instagram",        "YouTube",        "Twitter (X)"
+        "Facebook",        "Instagram",        "YouTube",        ""Twitter (X)"
       ]}
       buttons={[
         {
