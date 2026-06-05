@@ -229,7 +229,7 @@ export default function LandingPage() {
           id: "faq-2",          title: "How much is the paint job service?",          content: "Prices vary depending on the frame material whether aluminum, steel, or carbon and the color or design you choose. Our custom paint jobs usually start at ₱7,500."
         },
         {
-          id: "faq-3",          title: "What kind of paint do you use?",          content: "We use anzhal automotive urethane paint, topped with a high solid clear coat. Every frame also gets a 3 step polish for a smooth, glossy finish."
+          id: "faq-3",          title: "How long does it take?",          content: "A custom paint job usually takes 3–4 weeks, depending on the frame’s condition, weather, and any unexpected delays. We always make sure to give each frame the time and attention it deserves."
         },
         {
           id: "faq-4",          title: "Do you scrape or strip off the old paint?",          content: "Yes! for aluminum and steel frames, we use a chemical paint stripper to fully remove the old paint. For carbon frames, we DON'T use chemicals, we sand it manually to avoid damaging the material and to keep the frame in good condition underneath the new paint."
