@@ -235,10 +235,7 @@ export default function LandingPage() {
           id: "faq-4",          title: "Do you scrape or strip off the old paint?",          content: "Yes! for aluminum and steel frames, we use a chemical paint stripper to fully remove the old paint. For carbon frames, we DON'T use chemicals, we sand it manually to avoid damaging the material and to keep the frame in good condition underneath the new paint."
         },
         {
-          id: "faq-5",          title: "What kind of paint do you use?",          content: "A custom paint job usually takes 3-4 weeks. It depends on the frame's condition, weather, and any unexpected delays. We always make sure to give each frame the time and detail it deserves."
-        },
-        {
-          id: "faq-6",          title: "Can we ship our frames if we're far from the shop?  ",          content: "Yes, you can! you can send your frames through couriers like Lalamove, J&T or any shipping company you trust. We accept shipped frames from anywhere, Worldwide."
+          id: "faq-6",          title: "Can we ship our frames if we're far from the shop?",          content: "Yes, you can! you can send your frames through couriers like Lalamove, J&T or any shipping company you trust. We accept shipped frames from anywhere, Worldwide."
         }
       ]}
     />
