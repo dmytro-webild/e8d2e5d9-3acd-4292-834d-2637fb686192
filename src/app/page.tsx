@@ -87,17 +87,17 @@ export default function LandingPage() {
       avatarText="Join 500+ happy riders!"
       marqueeItems={[
         {
-          type: "text-icon",          text: "Precision Craftsmanship",          icon: Feather,
+          type: "text-icon",          text: "Precision Craftsmanship",          icon: Feather
         },
         {
           type: "text",          text: "Your Vision, Our Canvas"},
         {
-          type: "text-icon",          text: "Unmatched Durability",          icon: ShieldCheck,
+          type: "text-icon",          text: "Unmatched Durability",          icon: ShieldCheck
         },
         {
           type: "text",          text: "Hand-Painted Perfection"},
         {
-          type: "text-icon",          text: "Ride in Unique Style",          icon: Activity,
+          type: "text-icon",          text: "Ride in Unique Style",          icon: Activity
         },
       ]}
     />
@@ -277,10 +277,10 @@ export default function LandingPage() {
       description="Tell us about your vision. Our team will get back to you within 24 hours to discuss your project and provide a personalized quote."
       inputs={[
         {
-          name: "name",          type: "text",          placeholder: "Your Name",          required: true,
+          name: "name",          type: "text",          placeholder: "Your Name",          required: true
         },
         {
-          name: "email",          type: "email",          placeholder: "Your Email",          required: true,
+          name: "email",          type: "email",          placeholder: "Your Email",          required: true
         },
         {
           name: "phone",          type: "tel",          placeholder: "Phone Number (Optional)"},
@@ -291,7 +291,7 @@ export default function LandingPage() {
       }}
       textarea={{
         name: "projectDetails",        placeholder: "Tell us about your project vision (e.g., bike type, style, colors, desired date)",        rows: 5,
-        required: true,
+        required: true
       }}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780476585715-xxiwthkq.jpg"
       imageAlt="Close up of bicycle frame in a workshop"
@@ -315,7 +315,7 @@ export default function LandingPage() {
               label: "Refinishing",              href: "#features"},
             {
               label: "Restoration",              href: "#features"},
-          ],
+          ]
         },
         {
           title: "Studio",          items: [
@@ -331,7 +331,7 @@ export default function LandingPage() {
               label: "Socials",              href: "#social-media"},
             {
               label: "Contact",              href: "#contact"},
-          ],
+          ]
         },
         {
           title: "Legal",          items: [
@@ -339,7 +339,7 @@ export default function LandingPage() {
               label: "Privacy Policy",              href: "#"},
             {
               label: "Terms of Service",              href: "#"},
-          ],
+          ]
         },
       ]}
       copyrightText="© 2021 MPY Paint Jobs. All rights reserved."
