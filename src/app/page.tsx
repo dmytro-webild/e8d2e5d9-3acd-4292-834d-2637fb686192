@@ -205,7 +205,7 @@ export default function LandingPage() {
         {
           id: "t4",          name: "Emily R.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780481238971-wn0n8f2k.jpg",          imageAlt: "Emily R. excited about her new paint job"},
         {
-          id: "t5",          name: "David K.",          imageSrc: "http://img.b2bpic.net/free-photo/man-racing-dirt-bike_23-2151493384.jpg",          alt: "David K. admiring his custom frame"},
+          id: "t5",          name: "David K.",          imageSrc: "http://img.b2bpic.net/free-photo/man-racing-dirt-bike_23-2151493384.jpg",          imageAlt: "David K. admiring his custom frame"},
       ]}
       cardTitle="Riders Love Their MPY Transformations"
       cardTag="Unmatched Craftsmanship"
