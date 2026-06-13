@@ -8,11 +8,11 @@ import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
 import HeroSplit from '@/components/sections/hero/HeroSplit';
 import MetricCardThree from '@/components/sections/metrics/MetricCardThree';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
-import ProductCardFour from '@/components/sections/product/ProductCardFour';
 import TestimonialCardTwelve from '@/components/sections/testimonial/TestimonialCardTwelve';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import FaqDouble from '@/components/sections/faq/FaqDouble';
+import FeatureCardTwentyFour from '@/components/sections/feature/FeatureCardTwentyFour';
 import { Activity, Award, Feather, Heart, ShieldCheck, Sparkles, Quote } from "lucide-react";
 
 export default function LandingPage() {
@@ -140,34 +140,30 @@ export default function LandingPage() {
   </div>
 
   <div id="products" data-section="products">
-      <ProductCardFour
+      <FeatureCardTwentyFour
       textboxLayout="default"
-      gridVariant="bento-grid"
       useInvertedBackground={false}
-      carouselMode="buttons"
       animationType="slide-up"
-      products={[
+      title="Our Services: Crafting Your Ride"
+      description="We offer a range of services from custom paint designs to expert restoration, ensuring every bicycle frame is a unique masterpiece."
+      features={[
         {
-          id: "product-1",          name: "Elves Bikes Frame",          price: "Repaint Project",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780467729397-lqxx901e.jpg",          imageAlt: "Custom painted racing bike frame with geometric patterns",          variant: "Road Bike"
+          id: "feature-1",          title: "Custom Paint Designs",          author: "MPY Paint Jobs",          description: "Unleash your creativity with personalized graphics, vibrant color schemes, and unique finishes tailored to your style.",          tags: ["Design", "Personalization"],
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780467729397-lqxx901e.jpg",          imageAlt: "Custom painted racing bike frame with geometric patterns"
         },
         {
-          id: "product-2",          name: "Ave Maldea Custom Frame",          price: "Restoration Project",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780467713489-t0pr11a2.jpg",          imageAlt: "Restored vintage bicycle frame with new paint",          variant: "Fixed Gear"
+          id: "feature-2",          title: "Expert Restoration",          author: "MPY Paint Jobs",          description: "Bring your vintage or damaged frames back to life with meticulous repairs, flawless paint matching, and durable finishes.",          tags: ["Restoration", "Repair"],
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780467713489-t0pr11a2.jpg",          imageAlt: "Restored vintage bicycle frame with new paint"
         },
         {
-          id: "product-3",          name: "Specialized Works Frame",          price: "Repaint Project",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780466560858-i0e9zcla.jpg?_wi=1",          imageAlt: "Custom painted mountain bike frame with artistic design",          variant: "Road Bike"
+          id: "feature-3",          title: "Premium Finishes",          author: "MPY Paint Jobs",          description: "Choose from a wide array of high-quality finishes, including matte, gloss, metallic, and specialty effects for a truly unique look.",          tags: ["Finishing", "Quality"],
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780466560858-i0e9zcla.jpg?_wi=1",          imageAlt: "Custom painted mountain bike frame with artistic design"
         },
         {
-          id: "product-4",          name: "Giant Frame",          price: "Repaint Project",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780478634392-fiau9xji.jpg",          imageAlt: "Custom painted electric bike frame for urban commuting",          variant: "Road Bike"
-        },
-        {
-          id: "product-5",          name: "Cinelli Mash Frame",          price: "Repaint Project",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780479213950-wm0qmy6y.jpg",          imageAlt: "Custom painted track bike frame with bold graphics",          variant: "Fixed Gear"
-        },
-        {
-          id: "product-6",          name: "Specialized Frame",          price: "Repaint Project",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780466560858-i0e9zcla.jpg?_wi=2",          imageAlt: "Bicycle frame with vibrant graffiti-style custom paint",          variant: "Road Bike"
-        },
+          id: "feature-4",          title: "Bulk & Team Orders",          author: "MPY Paint Jobs",          description: "Custom painting solutions for bike shops, racing teams, and group projects with consistent quality and competitive pricing.",          tags: ["Bulk", "Teams"],
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780478634392-fiau9xji.jpg",          imageAlt: "Custom painted electric bike frame for urban commuting"
+        }
       ]}
-      title="Our Masterpieces: A Gallery of Custom Frames"
-      description="Explore a selection of our finest custom painted bicycle frames, showcasing unique designs, vibrant colors, and unparalleled attention to detail."
     />
   </div>
 
