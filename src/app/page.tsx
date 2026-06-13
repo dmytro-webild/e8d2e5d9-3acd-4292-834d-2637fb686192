@@ -122,6 +122,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       title="The MPY Craft Process"
       description="We turn your vision into a precision-crafted finish where artistry and technical mastery meet."
+      tag="Our Process"
       accordionItems={[
         {
           id: "process-1",          title: "1. Vision & Consultation",          content: "Share your ideas, inspirations, and desired aesthetics. We'll explore design concepts, color palettes, and material finishes to fully capture your vision."},
@@ -147,6 +148,7 @@ export default function LandingPage() {
       animationType="slide-up"
       title="Our Services: Crafting Your Ride"
       description="We offer a range of services from custom paint designs to expert restoration, ensuring every bicycle frame is a unique masterpiece."
+      tag="Our Services"
       features={[
         {
           id: "feature-1",          title: "Custom Paint Designs",          author: "MPY Paint Jobs",          description: "Unleash your creativity with personalized graphics, vibrant color schemes, and unique finishes tailored to your style. Our expert designers work closely with you to transform your vision into a stunning visual reality, making your bike truly one-of-a-kind. From intricate patterns to bold statements, we cover every detail to ensure your frame reflects your personality and passion on every ride.",          tags: ["Design", "Personalization"],
@@ -203,7 +205,7 @@ export default function LandingPage() {
         {
           id: "t4",          name: "Emily R.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780481238971-wn0n8f2k.jpg",          imageAlt: "Emily R. excited about her new paint job"},
         {
-          id: "t5",          name: "David K.",          imageSrc: "http://img.b2bpic.net/free-photo/man-racing-dirt-bike_23-2151493384.jpg",          imageAlt: "David K. admiring his custom frame"},
+          id: "t5",          name: "David K.",          imageSrc: "http://img.b2bpic.net/free-photo/man-racing-dirt-bike_23-2151493384.jpg",          alt: "David K. admiring his custom frame"},
       ]}
       cardTitle="Riders Love Their MPY Transformations"
       cardTag="Unmatched Craftsmanship"
