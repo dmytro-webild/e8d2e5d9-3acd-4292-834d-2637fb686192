@@ -149,19 +149,19 @@ export default function LandingPage() {
       description="We offer a range of services from custom paint designs to expert restoration, ensuring every bicycle frame is a unique masterpiece."
       features={[
         {
-          id: "feature-1",          title: "Custom Paint Designs",          author: "MPY Paint Jobs",          description: "Unleash your creativity with personalized graphics, vibrant color schemes, and unique finishes tailored to your style.",          tags: ["Design", "Personalization"],
+          id: "feature-1",          title: "Custom Paint Designs",          author: "MPY Paint Jobs",          description: "Unleash your creativity with personalized graphics, vibrant color schemes, and unique finishes tailored to your style. Our expert designers work closely with you to transform your vision into a stunning visual reality, making your bike truly one-of-a-kind. From intricate patterns to bold statements, we cover every detail to ensure your frame reflects your personality and passion on every ride.",          tags: ["Design", "Personalization"],
           imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780467729397-lqxx901e.jpg",          imageAlt: "Custom painted racing bike frame with geometric patterns"
         },
         {
-          id: "feature-2",          title: "Expert Restoration",          author: "MPY Paint Jobs",          description: "Bring your vintage or damaged frames back to life with meticulous repairs, flawless paint matching, and durable finishes.",          tags: ["Restoration", "Repair"],
+          id: "feature-2",          title: "Expert Restoration",          author: "MPY Paint Jobs",          description: "Bring your vintage or damaged frames back to life with meticulous repairs, flawless paint matching, and durable finishes. We carefully strip away old paint, repair any imperfections, and apply a fresh, resilient coat that restores your bike's original glory or gives it a completely new identity, ready for many more miles.",          tags: ["Restoration", "Repair"],
           imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780467713489-t0pr11a2.jpg",          imageAlt: "Restored vintage bicycle frame with new paint"
         },
         {
-          id: "feature-3",          title: "Premium Finishes",          author: "MPY Paint Jobs",          description: "Choose from a wide array of high-quality finishes, including matte, gloss, metallic, and specialty effects for a truly unique look.",          tags: ["Finishing", "Quality"],
+          id: "feature-3",          title: "Premium Finishes",          author: "MPY Paint Jobs",          description: "Choose from a wide array of high-quality finishes, including matte, gloss, metallic, and specialty effects for a truly unique look. Our advanced techniques ensure a smooth, even application and a finish that is not only visually striking but also highly resistant to the elements and daily wear, providing long-lasting beauty and protection for your frame.",          tags: ["Finishing", "Quality"],
           imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780466560858-i0e9zcla.jpg?_wi=1",          imageAlt: "Custom painted mountain bike frame with artistic design"
         },
         {
-          id: "feature-4",          title: "Bulk & Team Orders",          author: "MPY Paint Jobs",          description: "Custom painting solutions for bike shops, racing teams, and group projects with consistent quality and competitive pricing.",          tags: ["Bulk", "Teams"],
+          id: "feature-4",          title: "Bulk & Team Orders",          author: "MPY Paint Jobs",          description: "Custom painting solutions for bike shops, racing teams, and group projects with consistent quality and competitive pricing. Whether you need a fleet of bikes with matching team colors or a series of frames with a consistent brand aesthetic, we handle large orders with the same attention to detail and precision as individual projects, delivering uniformity and excellence across the board.",          tags: ["Bulk", "Teams"],
           imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780478634392-fiau9xji.jpg",          imageAlt: "Custom painted electric bike frame for urban commuting"
         }
       ]}
