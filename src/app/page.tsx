@@ -136,6 +136,7 @@ export default function LandingPage() {
       imageAlt="Bicycle frame being prepped for painting"
       mediaAnimation="blur-reveal"
       mediaPosition="right"
+      accordionContentClassName="h-auto"
     />
   </div>
 
@@ -164,6 +165,7 @@ export default function LandingPage() {
           imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EWBlOfpaA3C8pfIkwG9Yg6pp65/uploaded-1780478634392-fiau9xji.jpg",          imageAlt: "Custom painted electric bike frame for urban commuting"
         }
       ]}
+      cardDescriptionClassName="h-auto"
     />
   </div>
 
@@ -234,6 +236,7 @@ export default function LandingPage() {
           id: "faq-6",          title: "Can we ship our frames if we're far from the shop?",          content: "Yes, you can! you can send your frames through couriers like Lalamove, J&T or any shipping company you trust. We accept shipped frames from anywhere, Worldwide."
         }
       ]}
+      accordionContentClassName="h-auto"
     />
   </div>
 
